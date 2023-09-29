@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Byte{
+	public static void main(String[] args){
+		
+		Scanner lector= new Scanner(System.in);
+		byte dato;
+		
+		System.out.println("Dime un número: ");
+		dato=(byte) lector.nextInt();
+		System.out.println("El número es " + dato);
+
+		lector.close()
+	}
+}
