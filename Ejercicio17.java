@@ -38,7 +38,7 @@ public class Ejercicio17{
         //se hace el consumo total de los viajes 2 y 3
         consumomedio = (consumo1 + consumo2) / 2;
         //sacamos el consumo medio en litros por cada 100 km
-        System.out.println("El precio medio del combustible es de " + pmedio + " euros y el consumo medio del vehiculo es de " + consumomedio + " litros por cada 100 km.");
+        System.out.println("El precio medio del combustible es de " + pmedio + " euros/litro y el consumo medio del vehiculo es de " + consumomedio + " litros por cada 100 km.");
 
         lector.close();
     }
