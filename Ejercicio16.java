@@ -5,13 +5,13 @@ public class Ejercicio16{
 
         Scanner lector = new Scanner (System.in);
 
-        Double eur, dol, libras;
+        double eur, dol, libras;
 
-        System.out.println("Introduzca la cantidad en euros ");
+        System.out.println("Introduzca la cantidad en euros: ");
         eur = Double.parseDouble(lector.nextLine());
 
-        dol = eur * 1.06;
-        libras = eur * 0.87;
+        dol = eur * 1.06; //1 euro son 1,06 dolares
+        libras = eur * 0.87;//1 euro son 0,87 libras
 
         System.out.println(eur + " euros son " + dol + " dolares y " + libras + " libras.");
 

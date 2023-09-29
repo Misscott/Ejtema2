@@ -11,7 +11,7 @@ public class Ejercicio15{
         c = Double.parseDouble(lector.nextLine());
 
         kelvin = 273.5 + c;
-        fahr = c * (9/5) + 32;
+        fahr = c * (9f/5) + 32;
 
         System.out.println(c + " grados centígrados son " + kelvin + " Kelvin y " + fahr + " Fahrenheit.");
 
