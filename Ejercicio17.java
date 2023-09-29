@@ -10,6 +10,7 @@ public class Ejercicio17{
         plitro = Double.parseDouble(lector.nextLine());
         pmedio = plitro;
         //guardamos el primer precio del combustible en otra variable para no perderlo mas adelante
+        
         System.out.println("¿Cual fue el total pagado en euros?");
         totdeposito = Double.parseDouble(lector.nextLine());
 
